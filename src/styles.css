@@ -39,7 +39,7 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: #272844;
+  color: #272044;
 }
 
 .submit-button {
@@ -49,7 +49,7 @@ form {
   border: none;
   width: 150px;
   font-size: 16px;
-  border-radius: 53px;
+  border-radius: 50px;
   padding: 14px 24px;
 }
 .poem {
