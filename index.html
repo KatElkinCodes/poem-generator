@@ -7,35 +7,38 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header><h1>AI Poem Generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of your poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>The poem will go here</div>
-    </main>
+    <div class="container">
+      <header><h1>AI Poem Generator</h1></header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of your poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">The poem will go here</div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/KatElkinCodes" target="_blank">KatCodes</a>
-      and is open-sourced on
-      <a
-        href="https://github.com/KatElkinCodes/poem-generator.git"
-        target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://katcodes-poem-generator.netlify.app/" target="blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/KatElkinCodes" target="_blank">KatCodes</a>
+        and is open-sourced on
+        <a
+          href="https://github.com/KatElkinCodes/poem-generator.git"
+          target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://katcodes-poem-generator.netlify.app/" target="blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
