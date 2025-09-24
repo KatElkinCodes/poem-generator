@@ -22,14 +22,25 @@ h1 {
   line-height: 1.5;
   color: #272844;
 }
-
-form {
-  padding: 30px;
+.form-container {
   background-color: white;
+  padding: 15px 20px;
+
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
-  display: flex;
+
   margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 10px;
+  opacity: 0.6;
 }
 
 .instructions {
@@ -61,12 +72,27 @@ form {
   box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
 }
 
+.hidden {
+  display: none;
+}
+
 .poem strong {
   color: #885df1;
+  font-size: 12px;
 }
 
 footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+}
+
+.generating {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
